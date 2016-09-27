@@ -1,0 +1,21 @@
+// Box-sizing
+html {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
